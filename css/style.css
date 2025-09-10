@@ -1,0 +1,25 @@
+body{
+    background-color: #e3bfc9;
+    margin: 0;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #03A9F4;
+    font-family: "Story Script", sans-serif;
+    font-size: 72px;
+    text-align: center;
+    transition: all .3s;
+    padding: 0 20px;
+}
+
+.title:hover{
+    color: #66bef3;
+    font-size: 86px;
+}
